@@ -1,0 +1,63 @@
+# Arquivos temporários
+*~
+
+# SSH KEYS
+
+*.pem
+*.ppk
+
+# Arquivos de Documentação
+HELP.md
+
+# Arquivos de Compilação e Artefatos Gerados
+target/
+
+# Arquivos do Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de Compilação Específicos de Diretório
+# Diretório src/main/
+!**/src/main/**/target/
+# Diretório src/test/
+!**/src/test/**/target/
+
+
+# Arquivos de compilação Java
+*.class
+
+# Arquivos de build do Maven
+# target/
+
+# Arquivos de configuração específicos da IDE Eclipse
+.settings/
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados pelo Eclipse
+.metadata/
+
+# Arquivos do STS (Spring Tools) 
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Arquivos de dependências Maven
+mvnw
+.mvn/
+!mvnw.cmd
+
+# Arquivos de logs do Spring Boot
+logs/
+
+# Arquivos de pacote
+*.jar
+*.war
+*.ear
+
+# Arquivos de compilação do Gradle
+build/
